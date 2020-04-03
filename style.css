@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    background-image: url(img/monolit_rock.jpg);
+    background-size: cover;
+  }
+a {
+    text-decoration: none;
+    color: rgb(68, 68, 55);
+}
+header {
+    color: white;
+}
+.monolit {
+    margin-bottom: 1rem;
+    font-size: 4rem;
+}
+.range {
+    margin-top: 0;
+}
+@media screen and (max-width: 640px) {
+    header {
+        font-size: .5rem;
+    }
+    .monolit {
+        font-size: 2rem;
+    }
+    h4 {
+        margin-top: 2rem;
+    }
+}
+.about_us {
+    background-color: rgba(211, 211, 211, .7);
+    color: rgb(68, 68, 55);
+}
+.contacts {
+    margin-bottom: 0;
+}
+.adress {
+    display: none;
+}
+@media screen and (max-width: 640px) {
+    .adress {
+        display: block;
+    }
+}
+footer {
+    margin-top: 2rem;
+}
