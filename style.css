@@ -1,50 +1,70 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: "Roboto", sans-serif;
-    background-image: url(img/monolit_rock.jpg);
-    background-size: cover;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-image: url(img/monolit_rock.jpg);
+  background-size: cover;
+}
 a {
-    text-decoration: none;
-    color: rgb(68, 68, 55);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
 header {
-    color: white;
+  color: rgb(255, 255, 255);
 }
 .monolit {
-    margin-bottom: 1rem;
-    font-size: 4rem;
+  margin-bottom: 1rem;
+  font-size: 4rem;
 }
 .range {
-    margin-top: 0;
+  margin-top: 0;
 }
 @media screen and (max-width: 640px) {
-    header {
-        font-size: .5rem;
-    }
-    .monolit {
-        font-size: 2rem;
-    }
-    h4 {
-        margin-top: 2rem;
-    }
+  header {
+    font-size: 0.5rem;
+  }
+  .monolit {
+    font-size: 2rem;
+  }
+  h4 {
+    margin-top: 2rem;
+  }
+}
+
+main {
+  background-color: rgba(211, 211, 211, 0.7);
+  color: rgb(68, 68, 55);
+}
+hr {
+  width: 50%;
+}
+@media screen and (min-width: 991px) {
+  hr {
+    display: none;
+  }
+}
+li {
+  list-style-type: none;
+}
+ul {
+  margin-left: 0; /* Отступ слева в браузере IE и Opera */
+  padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
 }
 .about_us {
-    background-color: rgba(211, 211, 211, .7);
-    color: rgb(68, 68, 55);
+  background-color: rgba(43, 36, 36, 0.7);
+  color: rgb(255, 255, 255);
 }
 .contacts {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 .adress {
-    display: none;
+  display: none;
 }
 @media screen and (max-width: 640px) {
-    .adress {
-        display: block;
-    }
+  .adress {
+    display: block;
+  }
 }
 footer {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
