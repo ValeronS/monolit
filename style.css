@@ -48,8 +48,14 @@ hr {
     display: none;
   }
 }
+@media screen and (min-width: 640px) {
+  .hr_time {
+    display: none;
+  }
+}
 li {
   list-style-type: none;
+  line-height: 1.4;
 }
 ul {
   margin-left: 0; /* Отступ слева в браузере IE и Opera */
