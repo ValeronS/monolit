@@ -1,2 +1,1 @@
-User-agent: Yandex
 Sitemap: http://monolit.ml/sitemap.xml
