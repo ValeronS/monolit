@@ -1,1 +1,1 @@
-Sitemap: http://monolit.ml/sitemap.xml
+Sitemap: https://monolit.ml/sitemap.xml
